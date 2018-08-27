@@ -52,7 +52,7 @@ h3 {
 p {
 font-family: "Droid Serif", serif;
 line-height: 26px;
-font-size: 18px;
+font-size: 16px;
 }
 a {
   text-decoration: none;
@@ -64,7 +64,10 @@ a {
   margin: 0 20px;
   border-bottom: 2px solid transparent;
 }
-
+/* Button */
+button {
+  margin: 0 0 20px 0;
+}
 /* Class specific styles */
 .follow a {
   color: #0d2c40;
