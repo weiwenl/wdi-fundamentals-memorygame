@@ -2,32 +2,22 @@
 body {
   text-align: center;
 }
+
 header {
   background-color: #f15b31;
   color: white;
   padding: 30px 20px;
 }
-nav {
-  background-color: #00a6b3;
-  color: #fff;
-  padding: 20px 0;
-}
+
 main {
   width: 850px;
   margin: 35px auto;
 }
-footer {
-  text-transform: uppercase;
-  padding: 0 20px;
-  background-color: #0d2c40;
-  color: white;
-  font-size: 14px;
-  letter-spacing: 0.8em;
-  font-weight: 500;
-}
+
 img {
   margin: 40px 8px;
 }
+
 h1 {
   color: #0d2c40;
   font-family: "Raleway", sans-serif;
@@ -35,6 +25,7 @@ h1 {
   font-weight: 400;
   font-size: 45px;
 }
+
 h2{
   color: #0d2c40;
   font-family: "Raleway", sans-serif;
@@ -42,6 +33,7 @@ h2{
   font-weight: 600;
   font-size: 20px;
 }
+
 h3 {
   color: #00a6b3;
   font-family: "Raleway", sans-serif;
@@ -49,11 +41,13 @@ h3 {
   font-weight: 600;
   font-size: 18px;
 }
+
 p {
 font-family: "Droid Serif", serif;
 line-height: 26px;
 font-size: 16px;
 }
+
 a {
   text-decoration: none;
   color: #fff;
@@ -64,16 +58,30 @@ a {
   margin: 0 20px;
   border-bottom: 2px solid transparent;
 }
-/* Button */
+
+/* Navigation Styles */
+nav {
+  background-color: #00a6b3;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav a:hover {
+  border-color: #fff;
+}
+
+/* Button Styles */
 button {
   margin: 0 0 20px 0;
 }
-/* Class specific styles */
+
+/* Subscription styles */
 .follow a {
   color: #0d2c40;
   margin: 0;
 }
 
+/* Footer Styles */
 .copyright {
   float: left;
 }
@@ -82,6 +90,22 @@ button {
   float: right;
 }
 
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0d2c40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.8em;
+  font-weight: 500;
+}
+
+.name {
+  color: #f15b31;
+  font-weight: 700;
+}
+
+/* Clear floats styles */
 .clearfix:after {
 visibility: hidden;
 display: block;
@@ -89,12 +113,4 @@ content: " ";
 clear: both;
 height: 0;
 font-size: 0;
-}
-.name {
-  color: #f15b31;
-  font-weight: 700;
-}
-
-a:hover {
-  border-color: #fff;
 }
